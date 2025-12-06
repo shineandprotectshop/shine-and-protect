@@ -442,6 +442,25 @@ a {
     grid-template-columns: 1fr;
   }
 }
+/* Mobile Text Button */
+.mobile-text-cta {
+  display: none;
+  text-align: center;
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  background: #fff;
+  color: #111;
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-text-cta {
+    display: block;
+  }
+}
 
 /* FOOTER */
 .site-footer {
