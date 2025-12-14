@@ -620,24 +620,12 @@ a {
   box-shadow: 0 0 0 1px rgba(255,255,255,0.10);
 }
 .product-media{
-  aspect-ratio: 16/10;
   background:
-    linear-gradient(135deg, rgba(255,255,255,0.06), transparent),
-    linear-gradient(315deg, rgba(255,255,255,0.04), transparent);
-  border-bottom: 1px solid rgba(255,255,255,0.08);
-}
-.product-body{ padding: 1rem 1.05rem; display:flex; flex-direction:column; gap:.55rem; }
-.product-title{ margin:0; font-size: 1rem; color:#fff; }
-.product-meta{ display:flex; align-items:center; justify-content:space-between; color:#bdbdbd; font-size:.85rem; }
-.product-line{ color:#cfcfcf; font-size:.85rem; line-height:1.25rem; }
-.badge{
-  display:inline-flex;
-  border: 1px solid rgba(255,255,255,0.12);
-  background: rgba(255,255,255,0.04);
-  padding: .2rem .55rem;
-  border-radius: 999px;
-  font-size: .72rem;
-  color:#e2e2e2;
+  radial-gradient(circle at 25% 25%, rgba(255,255,255,0.10), transparent 55%),
+  radial-gradient(circle at 80% 0%, rgba(255,255,255,0.06), transparent 45%),
+  linear-gradient(135deg, rgba(255,255,255,0.05), transparent),
+  linear-gradient(315deg, rgba(255,255,255,0.03), transparent);
+
 }
 .product-actions{ margin-top:.25rem; display:flex; gap:.6rem; }
 .product-actions a{ flex:1; text-align:center; }
