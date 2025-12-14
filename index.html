@@ -411,3 +411,33 @@
   </footer>
 </body>
 </html>
+
+/* Premium product media background */
+.product-media {
+  background:
+    radial-gradient(circle at 25% 25%, rgba(255,255,255,0.10), transparent 55%),
+    radial-gradient(circle at 80% 0%, rgba(255,255,255,0.06), transparent 45%),
+    linear-gradient(135deg, rgba(255,255,255,0.05), transparent),
+    linear-gradient(315deg, rgba(255,255,255,0.03), transparent);
+}
+
+/* Corner tag (shop-style badge) */
+.corner-tag {
+  position: absolute;
+  top: 0.8rem;
+  left: 0.8rem;
+  background: #ffffff;
+  color: #000000;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 0.3rem 0.6rem;
+  border-radius: 999px;
+  z-index: 2;
+}
+
+/* Ensure card can position badge */
+.product-card {
+  position: relative;
+}
+
